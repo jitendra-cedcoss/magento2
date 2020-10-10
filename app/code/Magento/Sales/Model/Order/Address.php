@@ -412,7 +412,7 @@ class Address extends AbstractModel implements OrderAddressInterface, AddressMod
      * Returns prefix
      *
      * @return string
-     */n
+     */
     public function getPrefix()
     {
         return $this->getData(OrderAddressInterface::PREFIX);
@@ -465,7 +465,7 @@ class Address extends AbstractModel implements OrderAddressInterface, AddressMod
      */
     public function getVatId()
     {
-        return $this->getData(OrderAddressInterface::VAT_ID);n
+        return $this->getData(OrderAddressInterface::VAT_ID);
     }
 
     /**
@@ -521,7 +521,7 @@ class Address extends AbstractModel implements OrderAddressInterface, AddressMod
      */
     public function setCustomerAddressId($id)
     {
-        return $this->setData(OrderAddressInterface::CUSTOMER_ADDRESS_ID, $id);n
+        return $this->setData(OrderAddressInterface::CUSTOMER_ADDRESS_ID, $id);
     }
 
     /**
@@ -593,7 +593,7 @@ class Address extends AbstractModel implements OrderAddressInterface, AddressMod
      */
     public function setEmail($email)
     {
-        return $this->setData(OrderAddressInterface::EMAIL, $email);n
+        return $this->setData(OrderAddressInterface::EMAIL, $email);
     }
 
     /**
@@ -666,7 +666,7 @@ class Address extends AbstractModel implements OrderAddressInterface, AddressMod
     public function setVatId($id)
     {
         return $this->setData(OrderAddressInterface::VAT_ID, $id);
-    }n
+    }
 
     /**
      * @inheritdoc
@@ -728,7 +728,7 @@ class Address extends AbstractModel implements OrderAddressInterface, AddressMod
     public function setExtensionAttributes(\Magento\Sales\Api\Data\OrderAddressExtensionInterface $extensionAttributes)
     {
         return $this->_setExtensionAttributes($extensionAttributes);
-    }n
+    }
 
     /**
      * @inheritdoc
